@@ -1,0 +1,85 @@
+{% extends 'base1.html' %}
+{% block content %}
+</br></br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles-about.css"> <!-- Link only to "About Us" page -->
+</head>
+<body>
+    <style>/* styles-about.css */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .about-header {
+            background-color: #fff;
+            color: #121111;
+            text-align: center;
+            padding: 20px 0 0 0;
+            width: 100%;
+        }
+        
+        .about-header h1 {
+            margin: 0;
+        }
+        
+        .about-main {
+            padding: 20px;
+        }
+        
+        .about-section {
+            margin-bottom: 30px;
+        }
+        
+        .about-section h2 {
+            color: #333;
+        }
+        
+        .about-footer {
+            background-color: #828080;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+    <header class="about-header">
+        <h1>About Us</h1>
+    </header>
+    <main class="about-main">
+        <section class="about-section">
+            <h2>Welcome to our blog!</h2>
+            <p>We are passionate about [your blog's topic] and strive to provide valuable insights and information to our readers.</p>
+        </section>
+        <section class="about-section">
+            <h2>Our Mission</h2>
+            <p>At [Your Blog Name], our mission is to [describe your mission and what value you aim to provide to your readers].</p>
+        </section>
+        <section class="about-section">
+            <h2>Our Story</h2>
+            <p>[Share the story behind your blog - what inspired you to start it, any challenges you've overcome, and how your journey has shaped your content.]</p>
+        </section>
+        <section class="about-section">
+            <h2>Our Unique Selling Proposition</h2>
+            <p>[Highlight what sets your blog apart from others - your unique perspective, specialized knowledge, or distinctive writing style.]</p>
+        </section>
+        <section class="about-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or collaboration opportunities, feel free to reach out to us at [your email address] or connect with us on [social media platforms].</p>
+        </section>
+    </main>
+    <footer class="about-footer">
+        <p>&copy; 2024 BlogsAdda. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+{% endblock content %}
